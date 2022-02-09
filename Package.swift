@@ -19,10 +19,5 @@ let package = Package(
             dependencies: [],
             path: "AeroGearHttp"
         ),
-        .testTarget(
-            name: "AeroGearHttpTests",
-            dependencies: ["AeroGearHttp"],
-            path: "AeroGearHttpTests"
-        )
     ]
 )
